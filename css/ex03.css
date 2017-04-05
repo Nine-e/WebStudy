@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-30 14:34:33
+ * @version $Id$
+ */
+#father{
+	height: 800px;
+	width: 500px;
+	background-color: lightgray;
+	border: solid 1px;
+}
+#part1{
+	height: 50px;
+}
+#part2{
+	height: 150px;
+	background-color: gray;
+}
+#part3{
+	height: 200px;
+}
+#part4{
+	height: 100px;
+	background-color: gray;
+}
+#part5{
+	height: 300px;
+}
+.title{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100px;
+	height: 50px;
+	float: left;
+	padding: 10px;
+	margin: auto;
+	font-size: 20px;
+}
