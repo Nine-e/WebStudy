@@ -16,6 +16,8 @@
 }
 #part2{
 	height: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: gray;
 }
 #part3{
@@ -37,4 +39,11 @@
 	padding: 10px;
 	margin: auto;
 	font-size: 20px;
+}
+#part2 p{
+	display: block;
+	height: 40px;
+	width: 450px;
+	margin: 20px;
+	border: 1px solid black;
 }
