@@ -5,45 +5,215 @@
  * @date    2017-03-30 14:34:33
  * @version $Id$
  */
-#father{
-	height: 800px;
-	width: 500px;
-	background-color: lightgray;
-	border: solid 1px;
+.box{
+	width: 328px;
+	height: 556px;
+	border: 1px solid lightgray;
+	box-sizing: content-box;	
 }
-#part1{
-	height: 50px;
+
+.box1{
+	width: 328px;
+	height: 30px;
+	background-color: #eeeeee;
+	border-bottom: 1px solid lightgray;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
 }
-#part2{
-	height: 150px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: gray;
-}
-#part3{
-	height: 200px;
-}
-#part4{
-	height: 100px;
-	background-color: gray;
-}
-#part5{
-	height: 300px;
-}
-.title{
-	display: inline-block;
-	box-sizing: border-box;
-	width: 100px;
-	height: 50px;
+
+.box1-1{
+	width: 65px;
+	height: 30px;
+	border-bottom: 1px solid white; 	
+	border-right: 1px solid lightgray; 
+	background-color: white;
 	float: left;
-	padding: 10px;
-	margin: auto;
-	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
 }
-#part2 p{
-	display: block;
+
+.box1-2{
+	width: 65px;
+	height: 30px;
+	float: left;
+	line-height: 30px;	
+}
+
+
+.box2{
+	width: 326px;
+	height: 82px;
+	background-color: white;
+	border-bottom: 1px solid lightgray;	
+}
+
+.box2-1{
+	width: 296px;
+	height: 21px;
+	margin-left: 10px;
+	margin-top: 13px;
+	border: 1px solid gray;
+	
+}
+
+.box2-2{
+	width: 296px;
+	height: 21px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: 1px solid gray;
+}
+
+.box3{
+	width: 328px;
+	height: 138px;
+	background-color: white;
+	border-bottom: 1px solid lightgray;	
+}
+
+.box3-img{
+	width: 69px;
+	height: 73px;
+	background-color: #ff4400;
+	margin-top: 10px;
+	margin-left: 14px;
+	float: left;
+}
+
+.box3-line1{
+	width: 213px;
+	height: 20px;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 7px;
+	margin-top: 24px;
+}
+
+.box3-line2{
+	width: 213px;
+	height: 20px;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 7px;
+	margin-top: 7px;
+}
+
+.clear1{
+	width: 328px;
+	height: 10px;
+	float: left;
+}
+
+.box3-button1{
+	width: 105px;
+	height: 29px;
+	background-color: #ff4400;
+	margin-left: 18px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	color: white;
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+.box3-button2{
+	width: 85px;
+	height: 29px;
+	background-color: #ff4400;
+	margin-left: 9px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	color: white;
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+.box4{
+	width: 328px;
+	height: 51px;
+	background-color: white;
+	border-bottom: 1px solid lightgray;	
+}
+
+.box4-1{
+	width: 296px;
+	height: 21px;
+	margin-left: 10px;
+	margin-top: 13px;
+	border: 1px solid gray;
+	position: absolute;
+}
+
+.box5{
+	width: 328px;
+	height: 240px;
+}
+
+.box5-left{
+	width: 130px;
+	height: 160px;
+	background-color: white;
+	float: left;
+	border-bottom: 1px solid lightgray;
+	box-sizing: border-box;	
+}
+
+.tb1-1{
+	
+	margin-left: 40px;
+	margin-top: 31px;
+	width: 50px;
+	height: 70px;
+	background-color: #ff4400;
+}
+
+.tb1-2{
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 47px;
+	height: 30px;
+	font-size: 14px;
+	font-family: "MicrosoftYaHei";
+	text-align: center;
+	color: gray;
+}
+.box5-other{
+	width: 66px;
+	height: 80px;
+	background-color: white;
+	float: left;
+	border-left: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	box-sizing: border-box;	
+}
+
+.tb2-1{
+	
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 40px;
 	height: 40px;
-	width: 450px;
-	margin: 20px;
-	border: 1px solid black;
+	background-color: #ff4400;
+}
+
+.tb2-2{
+	margin-top: 5px;
+	width: 66px;
+	height: 20px;
+	font-size: 14px;
+	font-family: "MicrosoftYaHei";
+	text-align: center;
+	color: gray;
+}
+
+.box5-sl{
+	width: 64px;
+	height: 80px;
+	background-color: white;
+	float: left;
+	border-bottom: 1px solid lightgray;
+	box-sizing: border-box;	
 }
