@@ -102,3 +102,61 @@ body{
 	background-color: #CDD3F5;
 	border: 1px solid black;
 }
+.ui-bowtwo{
+	margin:50px;
+	width: 390px;
+	height: 370px;
+	background-color: #FFFFEB;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.ui-bowtwo-cntone{
+	width: 390px;
+	height: 260px;
+}
+.ui-bowtwo-cnttwo{
+	width: 390px;
+	height: 110px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #FFE6F4;
+}
+.ui-bowtwo-cnttwo-top{
+	width: 370px;
+	height: 20px;
+	margin: 10px;
+	border: 1px solid black;
+	background-color: #FFFFEB;
+	box-sizing: border-box;
+}
+.ui-bowtwo-cnttwo-bottom{
+	width: 370px;
+	height: 30px;
+	margin-left: 10px;
+	border: 1px solid black;
+	background-color: #FFFFEB;
+	box-sizing: border-box;
+}
+.ui-bowtwo-cnttwo-top h6{
+	margin-top: 1px;
+	margin-left: 10px;
+}
+.ui-bowtwo-cnttwo-bottom h3{
+	display: inline-block;
+	margin-top: 1px;
+	color: red;
+}
+.ui-bowtwo-cnttwo-bottom h4{
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: red;
+}
+.ui-bowtwo-cnttwo-bottom p{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 5px;
+	color: #9a9a9a;
+}
