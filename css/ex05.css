@@ -257,22 +257,35 @@
 	height: 40px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 .ui-box2-line3-part2{
 	width: 65px;
 	height: 40px;
 	border-left: 1px #CDCDCD solid;
+	font-family: "SimSun";
+	text-align: center;
+	line-height: 40px;
+	font-size: 13px;
 }
 .ui-box2-line3-part3{
 	width: 70px;
 	height: 40px;
 	border-left: 1px #CDCDCD solid;
+	font-family: "SimSun";
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: 600;
 
 }
 .ui-box2-line3-part4{
 	width: 80px;
 	height: 40px;
 	border-left: 1px #CDCDCD solid;
+	
+	text-align: center;
+	
 
 }
 .ui-box2-line3-part1 #time{
@@ -301,4 +314,45 @@
     outline-color: #fff;
     outline-offset: -4px; 
     z-index: 0; 
+}
+.ui-box2-line3-part1 #bus{
+	width: 31px;
+	height: 22px;
+	margin-left: 2px;
+	background-image: url("../img/ex05-img4.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.ui-box2-line3-part1 #new{
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/ex05-img5.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.ui-box2-line3-part1 #car{
+	width: 31px;
+	height: 22px;
+	margin-left: 2px;
+	background-image: url("../img/ex05-img6.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.ui-box2-line3-part1 #JR{
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/ex05-img7.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.ui-box2-line3-part1 a{
+	font-family: "SimSun";
+	margin-left: 5px;
+	font-size: 13px;
+    color: #0069A3;
+}
+.ui-box2-line3-part4 div{
+	margin-top: 5px;
+	font-family: "SimSun";
+	font-size: 12px;
 }
