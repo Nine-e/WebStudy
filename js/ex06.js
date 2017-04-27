@@ -1,0 +1,48 @@
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-26 17:55:11
+ * @version $Id$
+ */
+
+$(document).ready(function(){
+	$(".ui-box1-item").click(function(){
+		var img=$(this).find("img").attr("src");
+		$(".ui-show").hide();
+		$(".ui-hide-item img").attr("src",img);
+		$(".ui-hide").fadeIn(500);
+
+	});
+	$(".ui-hide-item").click(function(){
+		$(".ui-hide").hide();
+		$(".ui-show").show();
+
+	});
+
+	$(".ui-box2-line1-first").click(function(){
+		$(".ui-box2-line1").find("div").not(this).css("background-color","#FFF");
+		$(this).css("background-color","#C0C0C0");
+		$(".ui-box2-line2-cnt").text("1");
+	});
+	$(".ui-box2-line1-middle").click(function(){
+		$(".ui-box2-line1").find("div").not(this).css("background-color","#FFF");
+		$(this).css("background-color","#C0C0C0");
+		$(".ui-box2-line2-cnt").text("2");
+	});
+	$(".ui-box2-line1-last").click(function(){
+		$(".ui-box2-line1").find("div").not(this).css("background-color","#FFF");
+		$(this).css("background-color","#C0C0C0");
+		$(".ui-box2-line2-cnt").text("3");
+	});
+
+	var child = document.getElementById('ui-box3-line'),
+	$item=$(child.cloneNode(true));
+	var num = $(".ui-box3-line").length;
+
+	$(".ui-box3-button").click(function(){
+		var $newItem=$item.clone();
+		$newItem.children("div.ui-box3-line-index").text(num+1);
+		$newItem.children("div.ui-list-delete").bind("click",deleteData);
+        
+	});
+});
