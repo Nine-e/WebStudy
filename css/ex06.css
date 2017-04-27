@@ -36,7 +36,8 @@
 	display: none;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(155,155,155,0.5);
+	/*background-color: rgba(155,155,155,0.5);*/
+	/*filter: blur(10px);*/
 }
 .ui-hide-item{
 	width: 100%;
@@ -100,6 +101,7 @@
 .ui-box2-line2-cnt{
 	font-size: 55px;
 	font-weight: 700;
+	color: #808080;
 }
 .ui-box3{
 	width: 450px;
@@ -153,8 +155,8 @@
 	height: 40px;
 	background-color: #339966;
 	border:1px solid black;
-	float: right;
-	margin: 20px;
+	margin-top: 20px;
+	margin-left: 295px;
 	text-align: center;
 	line-height: 40px;
 	color: white;

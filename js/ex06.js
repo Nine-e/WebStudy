@@ -41,8 +41,13 @@ $(document).ready(function(){
 
 	$(".ui-box3-button").click(function(){
 		var $newItem=$item.clone();
-		$newItem.children("div.ui-box3-line-index").text(num+1);
-		$newItem.children("div.ui-list-delete").bind("click",deleteData);
-        
+		num++;
+		$newItem.children("div.ui-box3-line-index").text(num);
+        $(".ui-box3-data").append($newItem);
+
+	});
+
+	$(".ui-box3-line-delete").click(function(){
+		
 	});
 });
