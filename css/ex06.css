@@ -162,3 +162,7 @@
 	color: white;
 	font-size: 18px;
 }
+.ui-box3-noline{
+	display: none;
+	text-align: center;
+}

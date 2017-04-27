@@ -40,14 +40,30 @@ $(document).ready(function(){
 	var num = $(".ui-box3-line").length;
 
 	$(".ui-box3-button").click(function(){
+		if(num==0){
+			$(".ui-box3-noline").hide();
+		}
 		var $newItem=$item.clone();
 		num++;
 		$newItem.children("div.ui-box3-line-index").text(num);
+		$newItem.children("div.ui-box3-line-delete").bind("click",deleteData);
         $(".ui-box3-data").append($newItem);
 
 	});
 
-	$(".ui-box3-line-delete").click(function(){
-		
-	});
+	$(".ui-box3-line-delete").click(deleteData);
+	function deleteData(){
+        num--;
+        $(this).parent().hide(function(){
+            $(this).remove();
+            console.log(num);
+            for (var i=0;i<num;i++) {
+                $(".ui-box3-line-index").eq(i).text(i+1);
+            }
+            if(num==0){
+        	$(".ui-box3-noline").show();
+        }
+        });
+
+    }
 });
