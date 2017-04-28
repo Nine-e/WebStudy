@@ -215,6 +215,10 @@
 	background-position: center;
 	
 }
+.print{
+	margin-right: 3px;
+	font-size: 14px;
+}
 .ui-box1-line3 #file{
 	width: 20px;
 	height: 20px;
@@ -222,6 +226,10 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	
+}
+.file{
+	margin-right: 3px;
+	font-size: 14px;
 }
 .ui-box1-line3 a{
 	font-size: 13px;
@@ -262,6 +270,10 @@
 	background-image: url("../img/ex05-img3.png");
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.cloud{
+	margin-left: 75px;
+	color:#a1d8f3;
 }
 #square{
 	width: 12px;
@@ -403,12 +415,20 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.bus1{
+	color: #0090f1;
+	margin-left: 10px;
+}
 .ui-box2-line3-part1 #new{
 	width: 20px;
 	height: 20px;
-	background-image: url("../img/ex05-img5.png");
+	/*background-image: url("../img/ex05-img5.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;*/
+	color: #0090f1;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 .ui-box2-line3-part1 #car{
 	width: 31px;
@@ -418,12 +438,20 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.bus2{
+	color: #028d5e;
+	margin-left: 10px;
+}
 .ui-box2-line3-part1 #JR{
 	width: 20px;
 	height: 20px;
-	background-image: url("../img/ex05-img7.png");
+	/*background-image: url("../img/ex05-img7.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;*/
+	color: #028d5e;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 .ui-box2-line3-part1 a{
 	font-family: "SimSun";
