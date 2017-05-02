@@ -141,6 +141,21 @@ body{
 	height: 75px;
 	border-bottom: 1px solid #e0d9cf;
 }
+.ui-box3-top #title{
+	font-size: 20px;
+	color: #ff3d00;
+}
+.ui-box3-top #text{
+	font-size: 15px;
+	color: #b2b2b2;
+}
+.ui-box3-top #img{
+	width: 62px;
+	height: 62px;
+	border:1px solid #949494;
+	background-color:#666;
+}
+
 .ui-box3-buttom1{
 	height: 75px;
 	border-right: 1px solid #e0d9cf;
@@ -160,4 +175,52 @@ body{
 .ui-box3-buttom2{
 	height: 75px;
 }
-
+.ui-box3-buttom2 #title{
+	font-size: 20px;
+	color: #ff9211;
+}
+.ui-box3-buttom2 #text{
+	font-size: 15px;
+	color: #b2b2b2;
+}
+.ui-box4-left{
+	border-right: 1px solid #e0d9cf;
+	padding: 7px;
+}
+.ui-box4-left #title{
+	font-size: 20px;
+	color: #ff6640;
+}
+.ui-box4-left #text{
+	font-size: 15px;
+	color: #b2b2b2;
+}
+.ui-box4-left #img{
+	width: 62px;
+	height: 62px;
+	border:1px solid #949494;
+	background-color:#666;
+	
+}
+.ui-box4-right{
+	border-right: 1px solid #e0d9cf;
+	padding: 7px;
+}
+.ui-box4-right #title{
+	font-size: 20px;
+	color: #ff9c00;
+}
+.ui-box4-right #text{
+	font-size: 15px;
+	color: #b2b2b2;
+}
+.ui-box4-right #img{
+	width: 62px;
+	height: 62px;
+	border:1px solid #949494;
+	background-color:#666;
+	
+}
+.ui-box5 #title{
+	font-size: 25px;
+}
