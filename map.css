@@ -6,8 +6,16 @@
  * @version $Id$
  */
 #myMap{
+	position: absolute;
 	height: 500px;
 	width: 500px;
 	top: 10px;
 	left: 20px;
+}
+#result{
+	position: absolute;
+	height: 500px;
+	width: 200px;
+	top:10px;
+	left: 520px;
 }

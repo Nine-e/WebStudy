@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ex09</title>
+    <link rel="stylesheet" type="text/css" href="css/ex09.css">
+  </head>
+  <body>
+    <div id="myMap"></div>
+    <div class="ui-search">
+      <div class="ui-select">
+        <a href="#" class="ui-select-hznu">杭师大仓前校区</a>
+        <a href="#" class="ui-select-xihu">西湖附近的宾馆</a>
+      </div>
+      <div class="ui-search-route">
+        <div class="ui-search-route-title">线路查询</div>
+        <div class="ui-search-route-start">起点：杭师大仓前校区</div>
+        <div class="ui-search-route-end">终点：
+          <input type="text" id="end">
+        </div>
+        <button class="ui-search-route-search">查询</button>
+      </div>
+    </div>
+    <div id="result"></div>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=Lue3ZWGQcwPFdeDksdbpUIEDzlvSWaTL"></script>
+    <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/ex09.js"></script>
+  </body>
+</html>
+
